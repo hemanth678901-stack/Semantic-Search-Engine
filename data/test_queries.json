@@ -1,0 +1,314 @@
+[
+    {
+        "query": "Who is the boss of google?",
+        "title": [
+            "Sundar Pichai",
+            "Pichai Sundarajan",
+            "Pichai Sundararajan",
+            "Chief Executive Officer of Google",
+            "CEO of Alphabet and Google",
+            "Alphabet Inc. Leadership",
+            "Google Executive Management"
+        ]
+    },
+    {
+        "query": "What is google gemini?",
+        "title": [
+            "Google Gemini",
+            "Gemini (language model)",
+            "Gemini (chatbot)",
+            "Google DeepMind Gemini",
+            "Gemini Advanced",
+            "Large Language Models by Google",
+            "Google Multimodal AI Gemini"
+        ]
+    },
+    {
+        "query": "What is alphabet?",
+        "title": [
+            "Alphabet Inc.",
+            "Alphabet (company)",
+            "Parent company of Google",
+            "Google parent company",
+            "Alphabet subsidiaries and structure",
+            "Alphabet Corporate Structure",
+            "Google Conglomerate Alphabet"
+        ]
+    },
+    {
+        "query": "Tell me about google?",
+        "title": [
+            "Google",
+            "Google LLC",
+            "Alphabet Inc.",
+            "Google Company Profile",
+            "Google Search and Products",
+            "Overview of Google",
+            "History and Growth of Google"
+        ]
+    },
+    {
+        "query": "Founder of google?",
+        "title": [
+            "Larry Page",
+            "Sergey Brin",
+            "Founders of Google",
+            "Google Co-founders",
+            "History of Google",
+            "Google Founding Team",
+            "Larry Page and Sergey Brin Biography"
+        ]
+    },
+    {
+        "query": "What is google drive?",
+        "title": [
+            "Google Drive",
+            "Google Cloud Storage for Consumers",
+            "Google Workspace",
+            "Google Drive File Storage",
+            "Cloud Storage by Google",
+            "Google Drive Cloud Backup",
+            "Google Workspace File Sharing"
+        ]
+    },
+    {
+        "query": "Tell me about google cloud platform?",
+        "title": [
+            "Google Cloud Platform",
+            "Google Cloud",
+            "GCP Cloud Services",
+            "Google Cloud Computing Services",
+            "Google Cloud Infrastructure",
+            "Overview of Google Cloud",
+            "GCP Compute and Storage Services"
+        ]
+    },
+    {
+        "query": "What is Gmail?",
+        "title": [
+            "Gmail",
+            "Google Mail",
+            "Email service by Google",
+            "Google Workspace Gmail",
+            "Gmail Webmail Service",
+            "Google Email Features",
+            "History of Gmail Service"
+        ]
+    },
+    {
+        "query": "What is google deepmind?",
+        "title": [
+            "Google DeepMind",
+            "DeepMind Technologies",
+            "DeepMind AI Research",
+            "Google AI and DeepMind",
+            "Artificial Intelligence Research Lab DeepMind",
+            "DeepMind Machine Learning Lab",
+            "AlphaGo and DeepMind Innovations"
+        ]
+    },
+    {
+        "query": "What is the OS of android?",
+        "title": [
+            "Android (operating system)",
+            "Android OS",
+            "Mobile Operating System Android",
+            "Android Software Platform",
+            "Linux-based Android OS",
+            "Android Mobile Platform",
+            "Google Android Architecture"
+        ]
+    },
+    {
+        "query": "What is gemini notebook?",
+        "title": [
+            "Gemini Notebook",
+            "NotebookLM",
+            "Google NotebookLM",
+            "Gemini in Notebooks",
+            "AI-powered NotebookLM by Google",
+            "Google AI Notebook",
+            "NotebookLM Research Assistant"
+        ]
+    },
+    {
+        "query": "Tell me about google AI?",
+        "title": [
+            "Google AI",
+            "Google Artificial Intelligence",
+            "Google Research and AI",
+            "Google DeepMind",
+            "Artificial Intelligence at Google",
+            "Google AI Research Initiatives",
+            "Google Machine Intelligence"
+        ]
+    },
+    {
+        "query": "What is google classroom?",
+        "title": [
+            "Google Classroom",
+            "Google Workspace for Education",
+            "Educational Platform Google Classroom",
+            "Google Classroom Web Service",
+            "Blended Learning Google Classroom",
+            "Google Classroom for Teachers and Students",
+            "Google Education Tools"
+        ]
+    },
+    {
+        "query": "Tell me about Machine Learning?",
+        "title": [
+            "Machine learning",
+            "Introduction to Machine Learning",
+            "Machine Learning Algorithms and Concepts",
+            "Artificial Intelligence and Machine Learning",
+            "Statistical Machine Learning",
+            "Fundamentals of Machine Learning",
+            "Machine Learning Models and Applications"
+        ]
+    },
+    {
+        "query": "Explain about Supervised learning?",
+        "title": [
+            "Supervised learning",
+            "Supervised Machine Learning",
+            "Supervised Learning Algorithms",
+            "Classification and Regression in Supervised Learning",
+            "Supervised vs Unsupervised Learning",
+            "Labeled Data and Supervised Training",
+            "Predictive Modeling with Supervised Learning"
+        ]
+    },
+    {
+        "query": "What are the features of Machine Learning?",
+        "title": [
+            "Feature (machine learning)",
+            "Features and Characteristics of Machine Learning",
+            "Feature Engineering in Machine Learning",
+            "Machine Learning Attributes and Features",
+            "Feature Selection in Machine Learning",
+            "Input Features in Predictive Models",
+            "Feature Representation in Machine Learning"
+        ]
+    },
+    {
+        "query": "Explain about Ensemble learning?",
+        "title": [
+            "Ensemble learning",
+            "Ensemble Methods in Machine Learning",
+            "Bagging and Boosting Ensemble Techniques",
+            "Random Forest and Ensemble Learning",
+            "Gradient Boosting and Ensemble Models",
+            "Stacking and Blending in Machine Learning",
+            "Ensemble Model Architecture"
+        ]
+    },
+    {
+        "query": "What is meant by Statistical classification?",
+        "title": [
+            "Statistical classification",
+            "Classification in Machine Learning",
+            "Statistical Classification Models",
+            "Supervised Classification Techniques",
+            "Binary and Multiclass Statistical Classification",
+            "Classification Algorithms in Statistics",
+            "Statistical Pattern Recognition"
+        ]
+    },
+    {
+        "query": "What is Quantum machine learning?",
+        "title": [
+            "Quantum machine learning",
+            "Quantum Computing and Machine Learning",
+            "Quantum Artificial Intelligence",
+            "Quantum Machine Learning Algorithms",
+            "Quantum Neural Networks and QML",
+            "Quantum Information and Learning Algorithms",
+            "Hybrid Quantum-Classical Machine Learning"
+        ]
+    },
+    {
+        "query": "What is meant by Hyperparameter in machine learning?",
+        "title": [
+            "Hyperparameter (machine learning)",
+            "Hyperparameter Tuning and Optimization",
+            "Machine Learning Hyperparameters",
+            "Hyperparameters vs Model Parameters",
+            "Grid Search and Hyperparameter Selection",
+            "Bayesian Optimization of Hyperparameters",
+            "Hyperparameter Search in Machine Learning"
+        ]
+    },
+    {
+        "query": "Tell me algorithmic bias?",
+        "title": [
+            "Algorithmic bias",
+            "Bias in Machine Learning Algorithms",
+            "Algorithmic Fairness and Ethics in AI",
+            "Data Bias and Algorithmic Discrimination",
+            "Mitigating Algorithmic Bias in AI Models",
+            "Fairness and Bias in Automated Systems",
+            "Algorithmic Auditing and Bias Detection"
+        ]
+    },
+    {
+        "query": "What is Reinforcement learning?",
+        "title": [
+            "Reinforcement learning",
+            "Reinforcement Learning in AI",
+            "Markov Decision Processes and RL",
+            "Q-Learning and Deep Reinforcement Learning",
+            "Reinforcement Learning from Human Feedback (RLHF)",
+            "Policy Gradient Methods in Reinforcement Learning",
+            "Reward Systems and Reinforcement Learning Agents"
+        ]
+    },
+    {
+        "query": "Explain about Perceptron?",
+        "title": [
+            "Perceptron",
+            "Single-layer Perceptron",
+            "Multilayer Perceptron (MLP)",
+            "Perceptron in Artificial Neural Networks",
+            "Perceptron Learning Algorithm",
+            "Linear Binary Classifier Perceptron",
+            "Activation Function and Perceptron Model"
+        ]
+    },
+    {
+        "query": "Tell me about LoRA in Machine learning?",
+        "title": [
+            "LoRA (machine learning)",
+            "Low-Rank Adaptation (LoRA)",
+            "Parameter-Efficient Fine-Tuning (PEFT) LoRA",
+            "LoRA Fine-Tuning for Large Language Models",
+            "Low-Rank Adaptation of Large Models",
+            "LoRA Weights and Rank Decomposition",
+            "Efficient LLM Adaptation with LoRA"
+        ]
+    },
+    {
+        "query": "What is Database?",
+        "title": [
+            "Database",
+            "Database Management System (DBMS)",
+            "Introduction to Databases",
+            "Relational and Non-Relational Databases",
+            "Database Systems and Data Storage",
+            "Database Architecture and Fundamentals",
+            "Data Organization and Database Engines"
+        ]
+    },
+    {
+        "query": "What is meant by Relational Database?",
+        "title": [
+            "Relational database",
+            "Relational Database Management System (RDBMS)",
+            "Relational Data Model and SQL",
+            "Relational Database Architecture and Design",
+            "SQL and Relational Database Concepts",
+            "Relational Tables, Keys, and Schema",
+            "Relational Database Normalization and Queries"
+        ]
+    }
+]

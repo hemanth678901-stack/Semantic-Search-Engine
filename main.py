@@ -31,6 +31,7 @@ if __name__ == "__main__":
         # Create a loop to print in the correct format.
         for i in range(len(semantic_search_res)):
             print(f"{i+1}. {semantic_search_res[i]['title']} - {semantic_search_res[i]['distance']}")
+
     elif args.engine == "tfidf":
         engine = TFIDFSearchEngine()
         engine.load_and_fit(DEFAULT_CORPUS_PATH)
@@ -40,6 +41,7 @@ if __name__ == "__main__":
         # Create a loop to print in the correct format.
         for i in range(len(tfidf_res)):
             print(f"{i+1}. {tfidf_res[i]['title']} - {tfidf_res[i]['score']}")
+
     else:
         tfidf_engine = TFIDFSearchEngine()
         tfidf_engine.load_and_fit(DEFAULT_CORPUS_PATH)

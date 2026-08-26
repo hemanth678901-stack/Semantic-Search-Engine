@@ -21,12 +21,12 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CORPUS_PATH = PROJECT_ROOT / "data" / "corpus.json"
 
 class TFIDFSearchEngine:
-    def __init__(self):
+    def __init__(self) -> None:
         # The vectorizer learns the corpus vocabulary during load_and_fit().
         self.vectorizer = TfidfVectorizer()
         self.master_document = None
 
-    def load_and_fit(self, path: Path):
+    def load_and_fit(self, path: Path) -> None:
         """This function will load the data and compute TF-IDF vectors."""
          # Load document text and preserve titles for the returned search results.
         try:

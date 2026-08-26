@@ -6,7 +6,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CORPUS_PATH = PROJECT_ROOT / "data" / "corpus.json"
 
-def test_schema_check():
+def test_schema_check() -> None:
     """This function tests the structure of the data."""
     with open(DEFAULT_CORPUS_PATH, "r") as file:
         corpus_data = json.load(file)
@@ -16,7 +16,7 @@ def test_schema_check():
         assert "title" in article
         assert "text" in article
 
-def test_data_quality():
+def test_data_quality() -> None:
     """This function tests the quality of the data."""
     with open(DEFAULT_CORPUS_PATH, "r") as file:
         data = json.load(file)
@@ -26,4 +26,3 @@ def test_data_quality():
         assert article["title"] != None
         assert article["text"] != ""
         assert article["text"] != None
-

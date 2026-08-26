@@ -9,7 +9,7 @@ project_dir = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(project_dir))
 from src.retrieve_tfidf import TFIDFSearchEngine
 
-def test_file(tmp_path):
+def test_file(tmp_path) -> None:
     """This function tests the size of TFIDF search engine."""
     fake_data = [
         {"title": "Doc 1", "text": "This is about Python."},
@@ -25,7 +25,7 @@ def test_file(tmp_path):
     res = test1.search(["About"], 2)
     assert len(res) == 2
 
-def test_search_accuracy(tmp_path):
+def test_search_accuracy(tmp_path) -> None:
     """This function tests the accuracy of TFIDF search engine.."""
     fake_data = [
             {"title": "Doc 1", "text": "This is about Python."},

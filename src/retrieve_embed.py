@@ -21,7 +21,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CORPUS_PATH = PROJECT_ROOT / "data" / "corpus.json"
 
 class SemanticSearchEngine:
-    def __init__(self):
+    def __init__(self) -> None:
         # Loading the model
         self.model = SentenceTransformer("all-MiniLM-L6-v2")
         logger.info("Model was loaded successfully.")
