@@ -1,0 +1,26 @@
+name: Test
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # Step A:- Get the code
+      - uses: actions/checkout@v4
+            
+      # Step B:- Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+            
+      # Step C:- Set up install dependencies(directly into runner)
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+            
+      # Step D:- Run the tests
+      - name: Run tests
+        run: |
+          pytest
+
