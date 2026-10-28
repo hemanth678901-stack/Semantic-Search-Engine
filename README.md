@@ -24,10 +24,10 @@ Benchmarked on a gold-set test suite across exact-match, semantic-intent, and sy
 
 | Metric (Mean) | TF-IDF (Sparse) | Dense Embeddings (ChromaDB) |
 | :--- | :--- | :--- |
-| **Precision@5** | 0.19230769230769232 | 0.23076923076923078
-| **Recall@5** | 0.11538461538461539 | 0.15384615384615385
-| **MRR** | 0.6538461538461539 | 0.9230769230769231
-| **Mean Latency** | 0.001232 ms | 0.007576 ms
+| **Precision@5** | 0.176923076923077 | 0.22307692307692317
+| **Recall@5** | 0.12637362637362634 | 0.15934065934065927
+| **MRR** | 0.6634615384615384 | 0.9070512820512822
+| **Mean Latency** | 0.001786 ms | 0.01141 ms
 
 ---
 
