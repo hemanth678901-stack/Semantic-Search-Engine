@@ -8,7 +8,7 @@ A comparative search and retrieval system demonstrating quantitative and qualita
 
 The pipeline consists of four modular components.
 
-1. **`src/ingest.py:` (Data Pipeline):** Programmatically queries the Wikipedia Search & Rest APIs across multiple technical domains, sanitizes text extracts, handles rate limit gracefully with backoff retries, and saves a structured corpus (`data/corpus.json`).
+1. **`src/ingest.py:` (Data Pipeline):** Programmatically queries the Wikipedia Search & REST APIs across multiple technical domains, fetches page extracts, retries rate-limited requests after a five-second delay, and saves a structured corpus (`data/corpus.json`).
 
 2. **`src/retrieve_tfidf.py` (Sparse Baseline):** Fits a `TFIDFVectorizer` over the entire corpus vocabulary and computes cosine similarity against sparse document matrices for exac keyword matching.
 
@@ -27,7 +27,7 @@ Benchmarked on a gold-set test suite across exact-match, semantic-intent, and sy
 | **Precision@5** | 0.176923076923077 | 0.22307692307692317
 | **Recall@5** | 0.12637362637362634 | 0.15934065934065927
 | **MRR** | 0.6634615384615384 | 0.9070512820512822
-| **Mean Latency** | 0.001786 ms | 0.01141 ms
+| **Mean Latency (s)** | 0.001786 | 0.01141
 
 ---
 

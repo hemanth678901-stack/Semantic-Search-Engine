@@ -97,7 +97,7 @@ class Evaluate:
                     "------------   ------------------     --------------------------\n"
                     f"MRR            {tfidf_metric_report[2]}     {embed_metric_report[2]}\n"
                     "------------   ------------------     --------------------------\n"
-                    f"Mean Latency   {tfidf_latency_mean} ms            {embed_latency_mean} ms\n"
+                    f"Mean Latency (s)   {tfidf_latency_mean}            {embed_latency_mean}\n"
                 )
                 logger.info("Writing the report is completed.")
         except FileNotFoundError as e:
