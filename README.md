@@ -63,7 +63,7 @@ python -m pytest
 
 I verified that the core algorithms powering this search engine match fundamental linear algebra. I implemented the cosine similarity calculation from scratch in pure python using custom dot product and vector magnitude functions.
 
-I tested my raw math against the production library (`sklearn.metrics.pairwise.cosine_similarity`) using real embeddings from this project's corpus. The results matched exactly ( accounting for standard floating-point precision differences at the 15th decimal place ).
+I compared my calculation with `sklearn.metrics.pairwise.cosine_similarity` using sentence embeddings from `all-MiniLM-L6-v2`. The demo creates those embeddings from six short sample article records written directly in `cosine_similarity_demo.py`; they are illustrative examples based on the project's query topics, not articles loaded from the corpus. Both calculations produce the same result apart from tiny floating-point rounding differences.
 
 **Verification Example:**
 *   **Pair:** "Sundar Pichai" & "Google Gemini"

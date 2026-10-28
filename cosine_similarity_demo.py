@@ -13,37 +13,31 @@ articles: List[dict] = [
         "title": "Sundar Pichai",
         "text": "Sundar Pichai is the CEO of Google and Alphabet.",
         "topic": "Google leadership",
-        "related_questions": ["Who is the CEO of Google?", "Who is the boss of Google?"],
     },
     {
         "title": "Google Gemini",
         "text": "Google Gemini is a family of artificial intelligence models developed by Google.",
         "topic": "Google AI",
-        "related_questions": ["What is Google Gemini?"],
     },
     {
         "title": "Alphabet Inc.",
         "text": "Alphabet Inc. is the parent company of Google.",
         "topic": "Technology companies",
-        "related_questions": ["What is Alphabet?"],
     },
     {
         "title": "Google",
         "text": "Google is a technology company that provides search and online services.",
         "topic": "Technology companies",
-        "related_questions": ["Tell me about Google."],
     },
     {
         "title": "Larry Page",
         "text": "Larry Page is a co-founder of Google.",
         "topic": "Google founders",
-        "related_questions": ["Who founded Google?"],
     },
     {
         "title": "Google Drive",
         "text": "Google Drive is a cloud storage service for saving and sharing files.",
         "topic": "Google services",
-        "related_questions": ["What is Google Drive?"],
     },
 ]
 
@@ -78,23 +72,7 @@ class CosineSimilarity:
         return top / bottom
 
 
-def find_article(question: str) -> str:
-    """Find an article when the question matches one of its sample questions."""
-    for article in articles:
-        for sample_question in article["related_questions"]:
-            if question.lower() == sample_question.lower():
-                return article["title"]
-
-    return "No matching article found"
-
-
 def main() -> None:
-    # First, show that a Google CEO question is linked to Sundar Pichai.
-    question = "Who is the boss of Google?"
-    matching_title = find_article(question)
-    print(f"Question: {question}")
-    print(f"Matching article: {matching_title}\n")
-
     # Make one string for each article from its title and text.
     article_texts = []
     for article in articles:
