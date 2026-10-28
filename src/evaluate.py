@@ -76,7 +76,7 @@ class Evaluate:
         # Converting the lists to numpy array.
         tfidf_metric_report, embed_metric_report, tfidf_latency_mean, embed_latency_mean = np.array(args[0]), np.array(args[1]), np.array(args[2]), np.array(args[3])
         # Find the sum of the elements in the nested list of metrics.
-        tfidf_metric_report, embed_metric_report = np.round(np.sum(args[0], axis=0)), np.round(np.sum(args[1], axis=0))
+        tfidf_metric_report, embed_metric_report = np.sum(args[0], axis=0), np.sum(args[1], axis=0)
         # Find the sum of the elements in the nested list of latency.
         tfidf_latency_mean, embed_latency_mean = np.sum(args[2], axis=0), np.sum(args[3], axis=0)
         # Divide the total sum with number of documents that were returned. 
