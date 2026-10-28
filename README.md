@@ -67,8 +67,8 @@ I tested my raw math against the production library (`sklearn.metrics.pairwise.c
 
 **Verification Example:**
 *   **Pair:** "Sundar Pichai" & "Google Gemini"
-*   **Raw Python Math Score:** `0.4709807120973254`
-*   **Production Library Score:** `0.4709807120973256`
+*   **Raw Python Math Score:** `0.4472105200087608`
+*   **Production Library Score:** `0.4472105200087604`
 
 
 ## ⚠️ System Limitations
